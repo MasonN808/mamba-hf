@@ -1,6 +1,6 @@
 import torch.nn as nn
 import torch 
-from src.configuration_mamba import MambaConfig
+from configuration_mamba import MambaConfig
 from torch.nn import BCEWithLogitsLoss, CrossEntropyLoss, MSELoss
 from transformers.modeling_utils import PreTrainedModel
 from transformers.modeling_outputs import BaseModelOutputWithPast, CausalLMOutputWithPast, SequenceClassifierOutputWithPast
